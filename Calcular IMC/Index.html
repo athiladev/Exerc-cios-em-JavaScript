@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calcular IMC</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Estilo.css">
+	<script type="text/javascript" src="CalcularIMC.js"></script>
+</head>
+
+<body>
+
+
+
+
+	<div id="container">
+		<h2>Calcular IMC</h2>
+		<p>Peso em KG</p>
+		<input id="peso" type="text" name="peso" size="6">
+
+		<p>Altura em CM</p>
+		<input id="altura" type="text" name="peso" size="6">
+		<button id="btn" onclick="chamaFuncao()">Saber IMC</button>
+
+		<label id="resultadoImc">
+			0
+		</label>
+
+		<section class="tabela">
+			<table width="300">
+				<tbody>
+					<tr>
+						<td>IMC</td>
+						<td>Categoria</td>
+					</tr>
+					<tr>
+						<td>abaixo de 16,00</td>
+						<td>Baixo peso Grau III</td>
+					</tr>
+					<tr>
+						<td>16,00 a 16,99</td>
+						<td>Baixo peso Grau II</td>
+					</tr>
+					<tr>
+						<td>17,00 a 18.49</td>
+						<td>Baixo peso Grau I</td>
+					</tr>
+					<tr>
+						<td>18,50 a 24,99</td>
+						<td>Peso ideal</td>
+					</tr>
+					<tr>
+						<td>25,00 a 29,99</td>
+						<td>Sobrepeso</td>
+					</tr>
+					<tr>
+						<td>30,00 a 34,99</td>
+						<td>Obesidade Grau I</td>
+					</tr>
+					<tr>
+						<td>35,00 a 39,99</td>
+						<td>Obesidade Grau II</td>
+					</tr>
+					<tr>
+						<td>40,0 e acima</td>
+						<td>Obesidade Grau III</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+	</div>
+
+</html>

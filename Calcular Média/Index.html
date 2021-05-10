@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <script type="text/javascript" src="CalcularMédia.js"></script>
+
+</head>
+
+<body>
+    <div class="interface">
+        <div class="i-interface">
+            <p>Informe sua 1° nota:
+                <input type="number" min="0" max="10" id="n1">
+            </p>
+            <p>Informe sua 2° nota:
+                <input type="number" min="0" max="10" id="n2">
+            </p>
+            <p>Informe sua 3° nota:
+                <input type="number" min="0" max="10" id="n3">
+            </p>
+            <p>Informe sua 4° nota:
+                <input type="number" min="0" max="10" id="n4">
+            </p>
+            <button id="btn" onclick="Calcular()">
+                Saber Nota
+            </button>
+
+            <button id="btn-2" onclick="limparValor()">
+                Limpar
+            </button>
+
+            <div class="result">
+                <h3 id="final">Resultado Final:</h3>
+                <p id="media">Nota</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

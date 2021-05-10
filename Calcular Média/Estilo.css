@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface h1 {
+    width: 600px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    height: 50px;
+    color: black;
+    font-size: 35px;
+}
+
+.interface {
+    border: 1px solid white;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.i-interface {
+    background: rgba(0, 0, 0, .5);
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+.result {
+    position: absolute;
+    left: 75%;
+    top: 10px;
+    margin: 0 -70px;
+    color: #cecece;
+    text-shadow: 1px 1px 6px black;
+}
+
+#btn {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+#btn-2 {
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+p {
+    color: white;
+}

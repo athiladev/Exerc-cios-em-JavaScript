@@ -1,0 +1,45 @@
+
+    #segundos,
+    #minutos,
+    #horas,
+    span {
+        color: black;
+        position: relative;
+        display: inline-block;
+        font-size: 70px;
+        padding: 10px;
+        top: 10px;
+    }
+
+    .cronometro {
+        text-align: center;
+        background: #cecece;
+        width: 500px;
+        height: 500px;
+        position: relative;
+        margin: auto;
+        top: 80px;
+        box-shadow: 1px 1px 8px black;
+    }
+
+    .btn {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+    }
+
+    .btn button {
+        padding: 25px;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 50px;
+    }
+
+    .titulo {
+        padding-top: 30px;
+        margin: 10px;
+        position: relative;
+    }

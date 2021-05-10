@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Estilo.css">
+    <script type="text/javascript" src="Calculadora.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="text" id="BoxNumero" class="text bg-dark" value="0"></br></br>
+        <button id="N7" class="text-danger" onclick="chamaValores(7)">7</button>
+        <button id="N8" class="text-danger" onclick="chamaValores(8)">8</button>
+        <button id="N9" class="text-danger" onclick="chamaValores(9)">9</button>
+        <button id="LimparCampo" class="text-danger" onclick="Limpar()">C</button>
+        <button id="N4" class="text-danger" onclick="chamaValores(4)">4</button>
+        <button id="N5" class="text-danger" onclick="chamaValores(5)">5</button>
+        <button id="N6" class="text-danger" onclick="chamaValores(6)">6</button>
+        <button id="Dividir" class="text-danger" onclick="chamaValores('/')">/</button>
+        <button id="N1" class="text-danger" onclick="chamaValores(1)">1</button>
+        <button id="N2" class="text-danger" onclick="chamaValores(2)">2</button>
+        <button id="N3" class="text-danger" onclick="chamaValores(3)">3</button>
+        <button id="Multiplicar" class="text-danger" onclick="chamaValores('*')">x</button>
+        <button id="N0" class="text-danger" onclick="chamaValores(0)">0</button>
+        <button id="Resultado" class="text-danger" onclick="Calcular()">=</button>
+        <button id="Ponto" class="text-danger" onclick="chamaPonto('.')">.</button>
+        <button id="Menos" class="text-danger" onclick="chamaValores('-')">-</button>
+        <button id="Mais" class="text-danger" onclick="chamaValores('+')">+</button>
+        <button id="Resultado" class="text-danger" onclick="Calcular()">=</button>
+    </div>
+</body>
+
+</html>
