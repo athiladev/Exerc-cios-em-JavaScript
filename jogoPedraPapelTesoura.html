@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Pedra,Papel,Tesoura</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <script type="text/javascript" src="Game.js"></script>
+
+</head>
+
+<body>
+    <div class="imagens">
+        <h1 class="placarJogador">Jogador</h1>
+        <img src="imagens/stone.png" onclick="OptionPlayer(1)" id="pedra">
+        <img src="imagens/hand.png" onclick="OptionPlayer(2)">
+        <img src="imagens/scissors.png" onclick="OptionPlayer(3)">
+
+        <h1 class="placarMaquina">Máquina</h1>
+        <img src="imagens/stone.png" onclick="OptionMachine()">
+        <img src="imagens/hand.png" onclick="OptionMachine()">
+        <img src="imagens/scissors.png" onclick="OptionMachine()">
+    </div>
+
+    <div class="encerrar">
+        <h3 id="vencedor">Vencedor aqui</h3>
+        <button class="btnFinish" onclick="encerrarGame()">
+            Encerrar Game
+        </button>
+        <h2>Pontuação do Jogador: <span id="pontuacaoJogador">0</span></h2>
+        <h2>Pontuação da Máquina: <span id="pontuacaoMaquina">0</span></h2>
+        <h2>Empates: <span id="empates">0</span></h2>
+    </div>
+
+
+
+
+</body>
+
+</html>
